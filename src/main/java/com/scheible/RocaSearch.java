@@ -8,9 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author sj
  */
 @SpringBootApplication
-public class SpringBootNetbeansGettingStarted {
+public class RocaSearch {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootNetbeansGettingStarted.class, args);
+		SpringApplication.run(RocaSearch.class, args);
 	}
 }

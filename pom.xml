@@ -11,7 +11,7 @@
 	</parent>
 
 	<groupId>scheible.com</groupId>
-	<artifactId>spring-boot-netbeans-getting-started</artifactId>
+	<artifactId>roca-search</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	
 	<dependencies>
