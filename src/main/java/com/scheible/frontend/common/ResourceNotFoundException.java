@@ -1,4 +1,4 @@
-package com.scheible.frontend.exception;
+package com.scheible.frontend.common;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

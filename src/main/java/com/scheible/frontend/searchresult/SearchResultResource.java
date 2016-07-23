@@ -7,7 +7,7 @@ import com.scheible.backend.EntryRepository;
 import com.scheible.backend.SearchResult;
 import com.scheible.backend.SearchResultRepository;
 import com.scheible.frontend.entry.EntryResource;
-import com.scheible.frontend.exception.ResourceNotFoundException;
+import com.scheible.frontend.common.ResourceNotFoundException;
 import java.util.Map;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
