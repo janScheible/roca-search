@@ -2,10 +2,10 @@
 
 This is a small prototype of implementing a [ROCA style web application](http://roca-style.org/) with Spring Boot and Thymeleaf.
 
-A requirement is to store the search request in the database in order to allow analysis of search requests later.
+A requirement is to store the search requests in the database in order to allow analysis of them later.
 
-The application even works without JavaScript. When JavaScript is available Markdown is used for rendering the URLs.
-But only if HTML5 History API is availableAJAX is used to load the search result.
+The application even works with JavaScript disabled. When JavaScript is available Markdown is used for rendering the URLs.
+But only if JavaScript and HTML5 History API is available AJAX is used to load the search result.
 
 ## Fulfillment of ROCA recommendations 
 
