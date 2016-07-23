@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+	<head th:unless="${resourceOnly}" th:include="fragment/head :: [//head]">
+		<title>*Dummy*</title>
+	</head>
+	<body>
+		<div th:unless="${resourceOnly}" th:include="fragment/nav :: [//body]"/>
+			<h2><a th:href="${entry.resourceUrl}" th:text="${entry.name}">*EntryName*</a></h2>
+			<details>
+				<summary th:text="${entry.description}">*EntrySummary*</summary>
+			</details>
+		
+		<footer th:unless="${resourceOnly}" th:include="fragment/footer :: [//footer]"/>
+		<div th:unless="${resourceOnly}" th:include="fragment/javascript :: [//body]"/>
+	</body>
+</html>

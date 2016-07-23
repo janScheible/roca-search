@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8"/>
-		<title>ROCA Search</title>
-
-		<link rel="stylesheet" href="css/style.css"/>
-		
-		<script src="js/lib/jquery-2.1.4.js"></script>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+	<head th:include="fragment/head :: [//head]">
+		<title>*Dummy*</title>
 	</head>
 	<body>
-		<h1>ROCA Search</h1>
+		<div th:include="fragment/nav :: [//body]"/>
 		
-		<script src="js/transpiled.js"></script>
+		<section id="search-section">
+			<h1>Search</h1>
+			<form id="search" action="/search-result.html" method="POST">
+				<input id="search-query" type="text" name="query" value="the answer to life, the universe and everything"/>
+				<button type="submit">Search</button>
+			</form>
+		</section>
+		
+		<footer th:include="fragment/footer :: [//footer]"/>
+		<div th:include="fragment/javascript :: [//body]"/>
 	</body>
 </html>

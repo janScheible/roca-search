@@ -1,26 +1,38 @@
 html {
 	font-family: 'Helvetica Neue', sans-serif; 
-	background-color: #eee;
+	background-color: #fff;
 }
 
 h1 {
-	font-size: 59px;
-	font-weight: bold;
-	letter-spacing: -1px;
-	line-height: 1; 
-
-	color: #888;
-	text-transform: uppercase;
+	font-size: 24px;
 }
 
-.logo {
-	width: 200px;
+h2 {
+	font-size: 18px;
 }
 
-.footer {
-	margin-top: 32px;
-	padding: 7px;
-	background-color: #888;
-	color: #eee;
-	width: 600px;
+#menu {
+	background-color: #eee;
+	padding: 3px;
+}
+
+#menu > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu > ul > li {
+    display: inline;
+	padding-right: 16px;
+}
+
+#search-query {
+	width: 500px;
+}
+
+footer {
+	margin-top: 12px;
+	padding: 3px;
+	background-color: #eee;
 }
